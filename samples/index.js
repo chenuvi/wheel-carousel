@@ -28,8 +28,8 @@ $('.next').onclick = function (e){
 
 }
 let setDot = function (index){
-    $$ ('.carousel .dots span').forEach(dot => dot.classList.remove('active'))
-    $$ ('.carousel .dots span')[index].classList.add('active')
+        $$ ('.carousel .dots span').forEach(dot => dot.classList.remove('active'))
+        $$ ('.carousel .dots span')[index].classList.add('active')
 }
 let setPanel = function (index){
     $$('.carousel .panels a').forEach(panel => panel.style.zIndex = 1)
